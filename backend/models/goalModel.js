@@ -5,7 +5,7 @@ const goalSchema = mongoose.Schema({
     user: {
         type: mongoose.Schema.Types.ObjectId,
         required: true,
-        // Ref is to specify the name of the schema we're using
+        // Ref is to allow us to associate a user with a goal
         ref: 'User'
     },
     text: {
