@@ -41,3 +41,7 @@ Use MongoDB for databases modeling
     - update /backend/router/routes.js to require the functions from the controller file
 10. Add functionality to the controller functions
 11. Add /backend/middleware/errorMiddleware.js to allow the use of express error handling of async functions
+12. Create /backend/models/model.js for database schema
+    - export the model
+13. Update controller to require the exported schema
+14. Add database functionality to the API
