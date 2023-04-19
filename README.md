@@ -45,3 +45,9 @@ Use MongoDB for databases modeling
     - export the model
 13. Update controller to require the exported schema
 14. Add database functionality to the API
+
+## Step 2: Authentication
+Use JWT to implement json web tokens
+1. Install dependencies
+    - npm i bcryptjs
+    - npm i jsonwebtoken

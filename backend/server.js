@@ -22,6 +22,7 @@ app.use(express.urlencoded({extended: false}))
 // This tells the app to use the /routes/goalRoutes file if we hit the
 // /api/goals API from the frontend
 app.use('/api/goals', require('./routes/goalRoutes'))
+app.use('/api/users', require('./routes/userRoutes'))
 
 // Overwrites the express built-in error handler message
 app.use(errorHandler)
